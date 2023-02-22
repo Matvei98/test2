@@ -42,6 +42,7 @@ import inst from './componets/Footer/instagram.png'
 import ini from './componets/Footer/linkedin.png'
 import Line4 from './componets/Footer/Line 4.png'
 import {Text2} from './componets/Footer/Text2'
+import { LinkHeadl } from './componets/Footer/LinkHeadl'
 function App() {
   return (
     <>
@@ -184,7 +185,7 @@ Make sure you subscribe to get the latest updates'/>
 <footer>
 <div className='Aboutweb'>
 <img src={Logor} alt="kokok"/> 
-<Text1 title='Digitaldastin by Dastin Darmawan'/>
+<p  className='LinkLittle'>Digitaldastin by Dastin Darmawan</p>
 <div className='Picturesl'>
 <Pictures picturestitle={monogram}/>
 <Pictures picturestitle={vector}/>
@@ -195,7 +196,7 @@ Make sure you subscribe to get the latest updates'/>
 
 <div className='Page'>
 <div className='Links'>
-<Link linkTitle='Category'/>
+<LinkHeadl linkheadl='Category'/>
 <LinkLittle littletittle='CSS'/>
 <LinkLittle littletittle='Javascript'/>
 <LinkLittle littletittle='Tailwind'/>
@@ -203,18 +204,18 @@ Make sure you subscribe to get the latest updates'/>
 <LinkLittle littletittle='More Category'/>
 </div>
 <div className='Links'>
-<Link linkTitle='About Me'/>
+<LinkHeadl linkheadl='About Me'/>
 <LinkLittle littletittle='About Me'/>
 <LinkLittle littletittle='Projects'/>
 <LinkLittle littletittle='Achievement'/>
 </div>
 <div className='Links'>
-<Link linkTitle='Get in touch'/>
-<Text1 title='+62-8XXX-XXX-XX'/>
-<Text1 title='demo@gmail.com'/>
+<LinkHeadl linkheadl='Get in touch'/>
+<LinkLittle littletittle='+62-8XXX-XXX-XX'/>
+<LinkLittle littletittle='demo@gmail.com'/>
 </div>
 <div className='Links'>
-<Link linkTitle='Follow Us'/>
+<LinkHeadl linkheadl='Follow Us'/>
 <LinkLittle littletittle='Medium'/>
 <LinkLittle littletittle='Instagram'/>
 <LinkLittle littletittle='Twitter'/>

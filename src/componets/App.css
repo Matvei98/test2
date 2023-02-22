@@ -14,8 +14,27 @@ font-style: normal;
 	font-style: normal;
 }
 .subscribe1{
-	font-family: 'PlusJakartaSans-Bold',sans-serif;	
-	font-weight: 400;
-	font-style: normal;
-	color: #9A9494;
+font-family: 'PlusJakartaSans-Bold',sans-serif;	
+font-weight: 400;
+font-style: normal;
+color: #9A9494;
+}
+.headline{
+font-family: 'PlusJakartaSans-Bold',sans-serif;	
+font-style: normal;
+font-weight: 700;
+text-transform: capitalize;
+}
+
+.LinkHeadl{
+display: flex;
+align-items: center;
+text-decoration: none;
+padding-right: 40px;
+color:#2B2C34;
+font-size: 20px;
+font-family: 'PlusJakartaSans-Bold',sans-serif;	
+font-weight: 700;
+font-style: normal;
+text-transform: uppercase;
 }
