@@ -1,0 +1,11 @@
+.nav_item{
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	padding-right: 40px;
+	color:#2B2C34;
+   font-size: 20px;
+}
+.lupa{
+padding-right: 10px;
+}

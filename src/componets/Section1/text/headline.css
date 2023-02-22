@@ -1,0 +1,7 @@
+.headline{
+display: flex;
+padding-right: 10px;
+color: black;
+text-decoration: none;
+font-size: 24px;
+}

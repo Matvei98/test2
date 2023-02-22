@@ -1,0 +1,163 @@
+body{
+margin-left: 95px;
+margin-right: 95px;
+background-color: #EFF0F3;
+}
+header{
+font-family: TT Lakes;
+margin: 0;
+}
+
+.navBar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.container1{
+display: flex;
+flex-basis: 45%;
+margin-top: 26px;
+}
+
+.container2{
+display: flex;
+margin-top: 22px;
+}
+
+.container3{
+display: flex;
+margin-top: 22px;
+align-items: center;
+}
+.scrolls{
+display: flex;
+margin-top: 165px;
+margin-bottom: 165px;
+justify-content: space-around;
+}
+.block1{
+margin-right: 116px;
+}
+.block_item1{
+display: flex;
+font-size: 30px;
+padding-right: 150px;
+}
+.block_item2{
+display: flex;
+align-items: center;
+gap:12px;
+padding-right: 100px;
+}
+.block_item3{
+display: flex;
+gap:20px;
+}
+
+picture{
+display: flex;
+flex-direction: row-reverse;
+    justify-content: space-around;
+}
+.pic2{
+display: flex;
+}
+
+.section1{
+display: flex;
+margin-top: 30px;
+background-color: #EFF0F3;
+flex-direction: column;
+}
+.section_item1, .sec1,.sec2,.sec3,.sec4{
+display: flex;
+justify-content: space-between;
+margin-right: 10px;
+margin-left: 10px;
+margin-bottom: 30px;
+}
+.text1,.write1,.write2,.write3,.write4,.write5,.write6,.write7,.write8{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.text2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.section_item2{
+display: flex;
+justify-content: space-between;
+}
+
+.section2{
+display: flex;
+flex-direction: column;
+margin-top: 30px;
+background-color:white;
+}
+
+
+.section3{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 138px;
+background-color: #EFF0F3;
+}
+
+.button1{
+display: flex;
+gap: 20px;
+}
+
+.text3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-right: 70px;
+}
+.subscribe2{
+font-size: 36px;
+margin: 0;
+}
+footer{
+display: flex;
+flex-wrap: wrap;
+margin-top: 58px;
+justify-content: space-between;
+margin-right: 95px;
+margin-left: 95px;
+}
+.Aboutweb{
+ display: flex; 
+ flex-direction: column;
+align-items: flex-start; 
+}
+.Picturesl{
+display: flex;
+align-items: center;
+gap: 20px;
+}
+.Page{
+display: flex;
+gap:50px;
+}
+.Links{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.footerlittle{
+display: flex;
+flex-direction: column;
+margin-top: 30px;
+margin-left: 95px;
+margin-right: 95px;
+}
+.text4{
+display: flex;
+justify-content: space-between;
+font-size: 14px;
+}
