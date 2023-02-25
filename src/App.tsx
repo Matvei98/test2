@@ -1,18 +1,8 @@
 
 import React from 'react'
-import { Link } from './componets/Header/Link/Link'
-import { Textwelcome } from './componets/Welcome/Text hedline/texthedline'
-import {Text1} from './componets/Welcome/Frame/text1'
-import { ContactEmail } from './componets/Welcome/Contact/Contact'
-import Line from './componets/Welcome/Frame/Line.png';
-import LogoWelcome  from './componets/imges/learn-coding 1.png'
 import './componets/index.css';
 import './componets/App.css';
-import { Button } from './componets/Header/Button/Button'
-import  Logor from './componets/imges/Logo.png'
-import Lupa from './componets/Header/Link/lupa.svg'
-import Scroll_icon from './componets/imges/Scroll Icon.png'
-import { Headlines } from './componets/Section1/text/headlines'
+import { Headlines } from './componets/Browse Category/HeadlineLinks/HeadlineLinks'
 import Line1 from './componets/Section1/Line 3.png'
 import Line2 from './componets/Section1/Frame 286.png'
 import Cs from './componets/Section1/Cards/css.png'
@@ -32,7 +22,7 @@ import Post9 from './componets/Section2/Post9.png'
 import Post10 from './componets/Section2/Post10.png'
 import Post11 from './componets/Section2/Post11.png'
 import Post12 from './componets/Section2/Post12.png'
-import { ArticleButton } from './componets/Section2/ArticleButton'
+import { ArticleButton } from './componets/ArticlePosts/ArticleButton/ArticleButton'
 import Post from './componets/imges/Icon.png'
 import { LinkLittle } from './componets/Footer/LinkLittle'
 import { Pictures } from './componets/Footer/Pictures'
@@ -43,47 +33,19 @@ import ini from './componets/Footer/linkedin.png'
 import Line4 from './componets/Footer/Line 4.png'
 import {Text2} from './componets/Footer/Text2'
 import { LinkHeadl } from './componets/Footer/LinkHeadl'
+import { Navbar } from './componets/Header/NavBar'
+import { Aboutweb } from './componets/Header/AboutWeb/AboutWeb';
 function App() {
   return (
     <>
 <header>
-<div className ="navBar">
-<div className='container1'>
-<img src={Logor} alt="kokok"/> 
-</div>
-<div className="container2">
-<Link linkTitle='Home' />
-<Link linkTitle='Category' />
-<Link linkTitle='About Me' />
-<img src={Lupa} alt="pictures" className='lupa'/>
-<Link linkTitle='Search'/>
-</div>
-<div className='container3'>
-<Button buttoninput='Buy Me a Coffee' classes='smal'/>
-</div>
- </div>
-<div className="scrolls">
-<div className='block1'>
-<div className='block_item1'>
-<Textwelcome/>
-</div>
-<div className='block_item2'>
-<img src={Line} alt="pictures"/>
-<Text1 title='On this blog I share tips and tricks, frameworks, projects, tutorials, etc
-Make sure you subscribe to get the latest updates'/>
-</div>
-<div className='block_item3'>
-<ContactEmail title='Subscribe'/>
-</div>
-</div>
-<div className='block2'>
-<img src={LogoWelcome} alt="pictures"/>
-</div>
-</div>
-<picture>
-<img src={Scroll_icon} alt="pictures" className='pic2'/>
-</picture>
+<Navbar />
+<Aboutweb />
 </header>  
+
+
+
+
 
 
 

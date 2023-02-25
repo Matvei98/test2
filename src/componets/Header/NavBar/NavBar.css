@@ -1,0 +1,57 @@
+.navBar{
+	display: flex;
+	align-items: center;
+	margin-left: 95px;
+	margin-right: 95px;
+}
+.container1{
+	display: flex;
+	flex-basis: 40%;
+	margin-top: 26px;
+}
+.container2{
+display: flex;
+margin-top: 22px;	
+}
+.nav_item{
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	padding-right: 40px;
+	color:#2B2C34;
+   font-size: 20px;
+font-family: 'PlusJakartaSans-Bold',sans-serif;	
+font-weight: 700;
+font-style: normal;
+}
+.lupa{
+padding-right: 10px;
+}
+.container3{
+display: flex;
+margin-top: 22px;
+align-items: center;
+}
+.smal{
+	display: flex;
+	align-items: center;
+	color: #FFFFFE;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 23px;
+	flex-direction: row;
+	background-color: #6246EA;
+	width: 213px;
+	height: 44px;
+	text-transform: capitalize;
+	border-radius: 4px;
+	}
+	
+    .button_title::before {
+	content: url('./simple-icons.png');
+	width: 24px;
+	height: 24px;
+	padding-right: 10px;
+	padding-left: 10px;
+	}
