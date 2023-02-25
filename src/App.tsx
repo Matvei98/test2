@@ -8,7 +8,7 @@ import Line from './componets/Welcome/Frame/Line.png';
 import LogoWelcome  from './componets/imges/learn-coding 1.png'
 import './componets/index.css';
 import './componets/App.css';
-import { Button } from './componets/Header/Card/CardButton'
+import { Button } from './componets/Header/Button/Button'
 import  Logor from './componets/imges/Logo.png'
 import Lupa from './componets/Header/Link/lupa.svg'
 import Scroll_icon from './componets/imges/Scroll Icon.png'
@@ -20,7 +20,7 @@ import Js from './componets/Section1/Cards/js.png'
 import Tailwind from './componets/Section1/Cards/taiwind.png'
 import Vu from './componets/Section1/Cards/vue.png'
 import Rec from './componets/Section1/Cards/rec.png'
-import Post1 from './componets/Section2/Post1.png'
+import Post1 from './componets/Section2/images/Post1.png'
 import Post2 from './componets/Section2/Post2.png'
 import Post3 from './componets/Section2/Post3.png'
 import Post4 from './componets/Section2/Post4.png'
@@ -84,6 +84,14 @@ Make sure you subscribe to get the latest updates'/>
 <img src={Scroll_icon} alt="pictures" className='pic2'/>
 </picture>
 </header>  
+
+
+
+
+
+
+
+
 <section className='section1'>
 <div className='section_item1'>
 <div className='text1'>
