@@ -43,17 +43,6 @@ function App() {
 <Aboutweb />
 </header>  
 
-
-
-
-
-
-
-
-
-
-
-
 <section className='section1'>
 <div className='section_item1'>
 <div className='text1'>
