@@ -2,14 +2,8 @@
 import React from 'react'
 import './componets/index.css';
 import './componets/App.css';
-import { Headlines } from './componets/Browse Category/HeadlineLinks/HeadlineLinks'
 import Line1 from './componets/Section1/Line 3.png'
 import Line2 from './componets/Section1/Frame 286.png'
-import Cs from './componets/Section1/Cards/css.png'
-import Js from './componets/Section1/Cards/js.png'
-import Tailwind from './componets/Section1/Cards/taiwind.png'
-import Vu from './componets/Section1/Cards/vue.png'
-import Rec from './componets/Section1/Cards/rec.png'
 import Post1 from './componets/Section2/images/Post1.png'
 import Post2 from './componets/Section2/Post2.png'
 import Post3 from './componets/Section2/Post3.png'
@@ -42,28 +36,10 @@ function App() {
 <Navbar />
 <Aboutweb />
 </header>  
+<OptionHeader/>
 
-<section className='section1'>
-<div className='section_item1'>
-<div className='text1'>
-<img src={Line1} alt="pictures"/>
-<Headlines text='Browse the category'/>
-</div>
-<div className='text2'>
-<Headlines text='see all category'/>
-<img src={Line2} alt="pictures"/>
-</div>
-</div>
-<div className='section_item2'>
-<img src={Cs} alt="pictures"/>
-<img src={Js} alt="pictures"/>
-<img src={Tailwind} alt="pictures"/>
-<img src={Vu} alt="pictures"/>
-<div className='Card5'>
-<img src={Rec} alt="pictures"/>
-</div>
-</div>
-</section>
+
+
 <section className='section2'>
 <article className='sec1'>
 <div className='write1'>
