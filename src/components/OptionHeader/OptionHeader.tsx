@@ -1,5 +1,14 @@
 import React from 'react';
 import './index.css'
+
+import Line3 from './Images'
+import Line3 from './Images/Line3.png';
+import Frame from './Images/Frame.png';
+import Cs  from './Images/css.png';
+import Js from './Images/js.png';
+import Tailwind from  './Images/tailwind.png';
+import  Vu from './Images/vue.png';
+import  Rec from './Images/rec.png';
 interface Props{
 text?:string
 }
@@ -10,12 +19,12 @@ return(
 <section className='section1'>
 <div className='section_item1'>
 <div className='text1'>
-<img src={Line1} alt="pictures"/>
-<Headlines text='Browse the category'/>
+<img src={Line3} alt="pictures"/>
+<a href='www' className='headline'>Browse the category</a>
 </div>
 <div className='text2'>
-<Headlines text='see all category'/>
-<img src={Line2} alt="pictures"/>
+<a href='www' className='headline'>see all category</a>
+<img src={Frame} alt="pictures"/>
 </div>
 </div>
 <div className='section_item2'>

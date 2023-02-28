@@ -1,8 +1,8 @@
 import React from 'react'
-import './AboutWeb.css'
-import Line from  './Images/Line.png'
-import LogoWelcome from './Images/learn-coding.png'
-import Scroll from './Images/Scroll.png'
+import './AboutWeb.css';
+import Line from  './Images/Line.png';
+import LogoWelcome from './Images/learn-coding.png';
+import Scroll from './Images/Scroll.png';
 
 export const Aboutweb = () => {
 return <>
