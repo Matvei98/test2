@@ -1,10 +1,10 @@
 import React from 'react';
 import Logor from './images/Logo.png'
-import monogram from './Images/Monogram.png'
-import vector from './Images/Vector.png'
-import inst from './Images/instagram.png'
-import ini from './Images/linkedin.png'
-import Line4 from './Images/Line 4.png'
+import monogram from './images/Monogram.png'
+import vector from './images/Vector.png'
+import inst from './images/instagram.png'
+import ini from './images/linkedin.png'
+import Line4 from './images/Line 4.png'
 interface Props {
 footertitle?:string
 }

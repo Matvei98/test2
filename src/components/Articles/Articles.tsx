@@ -1,19 +1,19 @@
 import React from 'react';
 import './index.css'
-import Line1 from './Images/Line 3.png'
-import Line2 from './Images/Frame 286.png'
+import Line1 from './Images/Line3.png'
+import Frame from './Images/Frame.png'
 import Post1 from './Images/Post1.png'
-import Post2 from './componets/Section2/Post2.png'
-import Post3 from './componets/Section2/Post3.png'
-import Post4 from './componets/Section2/Post4.png'
-import Post5 from './componets/Section2/Post5.png'
-import Post6 from './componets/Section2/Post6.png'
-import Post7 from './componets/Section2/Post7.png'
-import Post8 from './componets/Section2/Post8.png'
-import Post9 from './componets/Section2/Post9.png'
-import Post10 from './componets/Section2/Post10.png'
-import Post11 from './componets/Section2/Post11.png'
-import Post12 from './componets/Section2/Post12.png'
+import Post2 from './Images/Post2.png'
+import Post3 from './Images/Post3.png'
+import Post4 from './Images/Post4.png'
+import Post5 from './Images/Post5.png'
+import Post6 from './Images/Post6.png'
+import Post7 from './Images/Post7.png'
+import Post8 from './Images/Post8.png'
+import Post9 from './Images/Post9.png'
+import Post10 from './Images/Post10.png'
+import Post11 from './Images/Post11.png'
+import Post12 from './Images/Post12.png'
 
 interface Props{
 articletitle?:string
@@ -25,11 +25,11 @@ return(
 <article className='sec1'>
 <div className='write1'>
 <img src={Line1} alt="pictures"/>
-<Headlines text='Featured Article'/>
+<a href='www' className='headline'>Featured Article</a>
 </div>
 <div className='write2'>
-<img src={Line2} alt="pictures"/>
-<Headlines text='See All Article'/>
+<img src={Frame} alt="pictures"/>
+<a href='www' className='headline'>See All Article</a>
 </div>
 </article>
 <div className='Posts1'>
@@ -41,11 +41,11 @@ return(
 <article className='sec2'>
 <div className='write3'>
 <img src={Line1} alt="pictures"/>
-<Headlines text='CSS'/> 
+<a href='www' className='headline'>CSS</a>
 </div>
 <div className='write4'>
-<img src={Line2} alt="pictures"/>
-<Headlines text='See All Article'/> 
+<img src={Frame} alt="pictures"/>
+<a href='www' className='headline'>See All Article</a>
 </div>
 </article>
 <div className='Posts2'>
@@ -57,11 +57,11 @@ return(
 <article className='sec3'>
 <div className='write5'>
 <img src={Line1} alt="pictures"/>
-<Headlines text='Javascript'/>
+<a href='www' className='headline'>Javascript</a>
 </div>
 <div className='write6'>
-<img src={Line2} alt="pictures"/>
-<Headlines text='See All Article'/>
+<img src={Frame} alt="pictures"/>
+<a href='www' className='headline'>See All Article</a>
 </div>
 </article>
 <div className='Posts3'>
@@ -73,11 +73,11 @@ return(
 <article className='sec4'>
 <div className='write7'>
 <img src={Line1} alt="pictures"/>
-<Headlines text='React JS'/>
+<a href='www' className='headline'>React JS</a>
 </div>
 <div className='write8'>
-<img src={Line2} alt="pictures"/>
-<Headlines text='See All Article'/> 
+<img src={Frame} alt="pictures"/>
+<a href='www' className='headline'>See All Article</a>
 </div>
 </article>
 <div className='Posts4'>

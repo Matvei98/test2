@@ -1,6 +1,5 @@
 import React from 'react';
 import './index.css'
-
 import Line3 from './Images/Line3.png'
 import Frame from './Images/Frame.png'
 import Cs  from './Images/css.png'
@@ -8,13 +7,10 @@ import Js from './Images/js.png'
 import Tailwind from  './Images/tailwind.png'
 import  Vu from './Images/vue.png'
 import  Rec from './Images/rec.png'
-interface Props{
-text?:string
-}
-export const OptionHeader:React.FC<Props>= ({text}) => {
-return(
-<>
-<a href='www' className='headline'>{text}</a>
+
+
+export const  Optionheader = () => {
+return<>
 <section className='section1'>
 <div className='section_item1'>
 <div className='text1'>
@@ -37,6 +33,5 @@ return(
 </div>
 </section>
 </>
-)
 }
 	

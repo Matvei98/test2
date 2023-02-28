@@ -1,6 +1,6 @@
 import React from 'react'
-import '.componets/Header/NavBar.css'
-import  Logor from './Images/Logo.png'
+import './NavBar.css'
+import Logor from './Images/Logo.png'
 import Lupa from './Images/lupa.svg'
 interface Props {
 buttoninput?:string;
@@ -9,7 +9,7 @@ export const Navbar:React.FC<Props> = ({buttoninput}) => {
 return <>
 <div className ="navBar">
 <div className='container1'>
-<img src={Logor} alt="kokok"/> 
+<img src={Logor} alt="pictures" className='logor'/>
 </div>
 <div className="container2">
 <a href='www' className='nav_item'>Home</a>
