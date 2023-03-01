@@ -7,7 +7,7 @@ import Js from './images1/js.png'
 import Tailwind from  './images1/tailwind.png'
 import  Vu from './images1/vue.png'
 import  Rec from './images1/rec.png'
-
+//
 interface Props {
 optiontitle?:string
 }
