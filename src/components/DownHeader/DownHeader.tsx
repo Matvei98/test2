@@ -11,7 +11,7 @@ import  Rec from './images1/rec.png'
 interface Props {
 optiontitle?:string
 }
-export const Optionheader:React.FC<Props>= ({optiontitle}) =>{
+export const Downheader:React.FC<Props>= ({optiontitle}) =>{
 return(
 <>
 <section className='section1'>

@@ -7,7 +7,7 @@ import { Aboutweb } from './components/Header/AboutWeb/AboutWeb';
 import { Articles } from './components/Articles/Articles';
 import { Sendingemail } from './components/Sendingemail/Sendingemail';
 import {Footer} from './components/Footer/Footer'
-import { Optionheader } from './components/OptionHeader/OptionHeader';
+import { Downheader } from './components/DownHeader/DownHeader';
 
 function App() {
 return (
@@ -16,7 +16,7 @@ return (
 <Navbar />
 <Aboutweb />
 </header>  
-<Optionheader/>
+<Downheader/>
 <Articles/>
 <Sendingemail/>
 <Footer/>
