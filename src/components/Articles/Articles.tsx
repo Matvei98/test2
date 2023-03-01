@@ -27,6 +27,7 @@ return(
 <img src={Line1} alt="pictures"/>
 <a href='www' className='headline'>Featured Article</a>
 </div>
+
 <div className='write2'>
 <img src={Frame} alt="pictures"/>
 <a href='www' className='headline'>See All Article</a>
@@ -40,7 +41,7 @@ return(
 </div>
 <article className='sec2'>
 <div className='write3'>
-<img src={Line1} alt="pictures"/>
+<img src={Line1} alt="pictures"/> 
 <a href='www' className='headline'>CSS</a>
 </div>
 <div className='write4'>

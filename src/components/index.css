@@ -6,40 +6,6 @@ font-family: TT Lakes;
 margin: 0;
 background-color:#EFF0F3;
 }
-.sec1,.sec2,.sec3,.sec4{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 15px;
-    margin-left: 10px;
-    margin-right: 50px;
-}
-
-.write1,.write2,.write3,.write4,.write5,.write6,.write7,.write8{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    font-size: 24px;
-}
-.text2{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.section2{
-display: flex;
-flex-direction: column;
-margin-top: 80px;
-background-color:white;
-margin-left: 95px;
-margin-right: 95px;
-}
-.post{
-margin-top: 40px;
-}
-.Posts1, .Posts2,.Posts3{
-display: flex;
-padding-bottom: 60px;
-}
 
 
 

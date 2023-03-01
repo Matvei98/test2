@@ -6,7 +6,7 @@
 }
 .container1{
 	display: flex;
-	flex-basis: 40%;
+	flex-basis: 45%;
 	margin-top: 26px;
 }
 .container2{
@@ -20,9 +20,6 @@ margin-top: 22px;
 	padding-right: 40px;
 	color:#2B2C34;
    font-size: 20px;
-font-family: 'PlusJakartaSans-Bold',sans-serif;	
-font-weight: 700;
-font-style: normal;
 }
 .lupa{
 padding-right: 10px;
@@ -47,11 +44,14 @@ align-items: center;
 	text-transform: capitalize;
 	border-radius: 4px;
 	}
-	
-    .button_title::before {
-	content: url('./Images/simple-icons.png');
-	width: 24px;
-	height: 24px;
-	padding-right: 10px;
-	padding-left: 10px;
-	}
+.button_title{
+display: flex;
+align-items: center;
+}
+.button_title::before {
+content: url('./Images/simple-icons.png');
+width: 24px;
+height: 24px;
+padding-right: 10px;
+padding-left: 10px;
+}

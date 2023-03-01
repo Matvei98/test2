@@ -6,13 +6,13 @@
 	}
 
 	.section_item1 {
-		display: flex;
-		justify-content: space-between;
-		margin-bottom: 30px;
-		margin-top: 97px;
-		margin-left: 98px;
-		margin-right: 104px;
-		}
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+	margin-top: 97px;	
+	margin-left: 95px;
+	margin-right: 95px;
+	}
 
 
 		.text1{
@@ -31,16 +31,17 @@
 
 
 .headline{
-	display: flex;
-	padding-right: 10px;
-	color: black;
-	text-decoration: none;
-	font-size: 24px;
-	}
+display: flex;
+padding-right: 10px;
+color: black;
+text-decoration: none;
+font-size: 20px;
+}
+
 
 	.section_item2{
-		display: flex;
-		justify-content: space-between;
-		margin-left: 95px;
-		margin-right: 95px;
-		}
+	display: flex;
+	justify-content: space-between;
+	margin-left: 90px;
+	margin-right: 90px;
+	}
