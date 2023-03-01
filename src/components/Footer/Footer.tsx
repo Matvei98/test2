@@ -1,4 +1,5 @@
 import React from 'react';
+import './index.css'
 import Logor from './images/Logo.png'
 import monogram from './images/Monogram.png'
 import vector from './images/Vector.png'
