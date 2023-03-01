@@ -1,16 +1,19 @@
 import React from 'react';
 import './index.css'
-import Line3 from './Images/Line3.png'
-import Frame from './Images/Frame.png'
-import Cs  from './Images/css.png'
-import Js from './Images/js.png'
-import Tailwind from  './Images/tailwind.png'
-import  Vu from './Images/vue.png'
-import  Rec from './Images/rec.png'
+import Line3 from './images1/Line3.png'
+import Frame from './images1/Frame.png'
+import Cs  from './images1/css.png'
+import Js from './Images1/js.png'
+import Tailwind from  './images1/tailwind.png'
+import  Vu from './images1/vue.png'
+import  Rec from './images1/rec.png'
 
-
-export const  Optionheader = () => {
-return<>
+interface Props {
+optiontitle?:string
+}
+export const Optionheader:React.FC<Props>= ({optiontitle}) =>{
+return(
+<>
 <section className='section1'>
 <div className='section_item1'>
 <div className='text1'>
@@ -33,5 +36,6 @@ return<>
 </div>
 </section>
 </>
+)
 }
 	
