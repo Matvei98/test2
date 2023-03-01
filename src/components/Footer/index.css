@@ -1,3 +1,17 @@
+.footer{
+	display: flex;
+	margin-top: 50px;
+	margin-left: 95px;
+	}
+	
+.Aboutweb{
+	display: flex;
+	flex-basis: 35%; 
+	flex-direction: column;
+	align-items: flex-start; 
+	gap: 20px;
+}
+
 .LinkLittle{
 	display: flex;
 	text-decoration: none;
@@ -7,6 +21,44 @@
 	font-style: normal;
 	color: #2B2C34;
 	}
+.Picturesl{
+		display: flex;
+		align-items: center;
+		gap: 20px;
+		}
+.Page{
+display: flex;
+gap:60px;
+}
+
+.Links{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	}
+
+.Linkheadls{
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	padding-right: 40px;
+	color:#2B2C34;
+	font-size: 20px;
+}
+.footerlittle{
+		display: flex;
+		flex-direction: column;
+		margin-top: 30px;
+		margin-left: 95px;
+		margin-right: 95px;
+		}
+.text4{
+display: flex;
+justify-content: space-between;
+font-size: 14px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
 
 .textlittle{
 		font-size: 14px;
@@ -15,3 +67,5 @@
 		font-style: normal;
 		color:#2B2C34;
 		}
+
+	
