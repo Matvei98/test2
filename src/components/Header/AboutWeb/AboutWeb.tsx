@@ -15,7 +15,8 @@ Front End Dev </h1>
 <div className='block_item2'>
 <img src={Line} alt="pictures"/>
 <p className='subscribe1'>On this blog I share tips and tricks, frameworks, projects, tutorials, etc
-Make sure you subscribe to get the latest updates</p>
+<br/>Make sure you subscribe to get the latest updates
+</p>
 </div>
 <div className='block_item3'>
 <input type='email' placeholder='Enter your email here...' className='frame6'/>

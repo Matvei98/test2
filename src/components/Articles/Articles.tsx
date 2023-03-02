@@ -40,11 +40,11 @@ return(
 <img src={Post4} alt="pictures"/>
 </div>
 <article className='sec2'>
-<div className='write3'>
+<div className='write1'>
 <img src={Line1} alt="pictures"/> 
 <a href='www' className='headline'>CSS</a>
 </div>
-<div className='write4'>
+<div className='write2'>
 <img src={Frame} alt="pictures"/>
 <a href='www' className='headline'>See All Article</a>
 </div>
@@ -56,11 +56,11 @@ return(
 <img src={Post3} alt="pictures"/>
 </div>
 <article className='sec3'>
-<div className='write5'>
+<div className='write1'>
 <img src={Line1} alt="pictures"/>
 <a href='www' className='headline'>Javascript</a>
 </div>
-<div className='write6'>
+<div className='write2'>
 <img src={Frame} alt="pictures"/>
 <a href='www' className='headline'>See All Article</a>
 </div>
@@ -72,11 +72,11 @@ return(
 <img src={Post9} alt="pictures"/>
 </div>
 <article className='sec4'>
-<div className='write7'>
+<div className='write1'>
 <img src={Line1} alt="pictures"/>
 <a href='www' className='headline'>React JS</a>
 </div>
-<div className='write8'>
+<div className='write2'>
 <img src={Frame} alt="pictures"/>
 <a href='www' className='headline'>See All Article</a>
 </div>

@@ -24,10 +24,9 @@
     justify-content: space-between;
     margin-bottom: 15px;
     margin-left: 10px;
-    margin-right: 50px;
 }
 
-.write1,.write2,.write3,.write4,.write5,.write6,.write7,.write8{
+.write1,.write2{
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -42,8 +41,9 @@
 .post{
 margin-top: 40px;
 }
-.Posts1, .Posts2,.Posts3{
+.Posts1, .Posts2,.Posts3,.Posts4{
 display: flex;
+justify-content: space-around;
 padding-bottom: 60px;
 }
 
