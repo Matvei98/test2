@@ -1,1 +1,1 @@
-export {Downheader} from './DownHeader'
+export { Downheader } from './DownHeader';
